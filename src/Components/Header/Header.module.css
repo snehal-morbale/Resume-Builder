@@ -1,0 +1,58 @@
+/* Header.module.css */
+
+.container {
+  padding: 50px 30px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  background-image: url('https://us.123rf.com/450wm/nada01/nada012008/nada01200801040/154341505-dynamic-texture-blue-background-vector-illustration.jpg?ver=6');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(238, 252, 255);
+  min-height: 85vh;
+}
+
+.heading {
+  margin: 0 auto;
+  max-width: 500px;
+  color: white;
+  font-size: 3.1rem;
+  line-height: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-family: brush script MT; /* Use cursive font-family */
+  text-shadow: 0 0 10px #239ce2, 0 0 20px #1369b9, 0 0 30px #239ce2, 0 0 40px #1369b9, 0 0 50px #239ce2, 0 0 60px #1369b9, 0 0 70px #239ce2; /* Apply sparkling shadow effect */
+  animation: bounce 1s infinite alternate; /* Apply bounce animation */
+}
+
+@keyframes bounce {
+  from {
+    transform: scale(3);
+  }
+  to {
+    transform: scale(1.6);
+  }
+}
+
+
+
+.heading span {
+  background-clip: text;
+  background-image: linear-gradient(to right, #239ce2, #1369b9);
+  color: transparent;
+}
+.subHeading {
+  font-size: 40px;
+  margin-top: 60px; /* Adjust the value to control the spacing */
+  color: #0fe6ee;
+  text-shadow: 0 0 10px #23bfe2, 0 0 20px #26bcf7, 0 0 30px #42bbf3, 0 0 40px #1369b9, 0 0 50px #239ce2, 0 0 60px #1369b9, 0 0 70px #239ce2; /* Apply sparkling shadow effect */
+  animation: bounce 1s infinite alternate; 
+}
+
+
+.right img {
+  width: 400px;
+}
